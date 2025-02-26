@@ -14,7 +14,7 @@ describe("Task 1", () => {
     });
 
     it("example2", async () => {
-      const response = await getTask1("alpHa-alFRedo");
+      const response = await getTask1("alpHa--_-     alFRedo");
       expect(response.body).toStrictEqual({ msg: "Alpha Alfredo" });
     });
 
